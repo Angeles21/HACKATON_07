@@ -1,0 +1,39 @@
+.second,
+.third,
+.fourth,
+.sixth,
+.seventh,
+.footer {
+	&__flex {
+		display: flex;
+		flex-direction: row;
+		text-align: center;
+		align-items: center;
+		padding: 9vh;
+		justify-content: center;
+	}
+	&__element {
+		padding: 10px;
+		flex: 50%;
+	}
+}
+
+.seventh__bg {
+	background-color: rgb(188, 221, 188);
+	border-radius: 10px;
+	padding: 4vh;
+}
+
+.eight__grid {
+	padding: auto;
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+	padding: 9vh;
+	text-align: center;
+}
+
+.eight__griditem {
+	height: 70px;
+	font-weight: bold;
+	border: 1px solid rgb(188, 221, 188);
+}

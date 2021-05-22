@@ -1,0 +1,108 @@
+/* THIS IS FOR THE SECTIONS */
+@import "./header";
+@import "./flex";
+@import "./footer";
+
+.container {
+	width: auto;
+	max-width: 1700px;
+}
+
+/** THESE ARE FONT VALUES */
+.minimum {
+	font-size: 10px;
+	padding-bottom: 1em;
+	text-align: center;
+	color: green;
+}
+.maximum {
+	font-size: 2rem;
+	text-align: center;
+}
+
+.filler {
+	font-size: 30px;
+	padding-top: 2vh;
+}
+.fuller {
+	font-size: 17px;
+	padding-top: 4vh;
+	text-align: center;
+}
+
+.common {
+	font-size: 13px;
+	text-align: center;
+	color: green;
+}
+
+/* THESE ARE GENERAL VALUES */
+
+.background {
+	background-image: url(../img/wallpaper_1.png);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	padding: 8%;
+
+	&__text {
+		font-size: 4em;
+		padding-left: 3vh;
+		font-weight: 100;
+		color: white;
+	}
+	&__textlight {
+		font-style: italic;
+		padding-left: 3vh;
+		color: white;
+	}
+}
+.second {
+	padding: 8rem;
+}
+
+.third,
+.sixth {
+	background: rgb(245, 136, 85);
+
+	&__text {
+		text-align: left;
+		padding: 2vh;
+	}
+}
+
+.second {
+	padding: 8rem;
+}
+
+.fourth {
+	&__logo {
+		width: 50px;
+		height: 50px;
+	}
+}
+
+.fifth {
+	&__wrapper {
+		padding-top: 4vh;
+	}
+	&__element {
+		text-align: center;
+	}
+	&__img {
+		border-radius: 50%;
+	}
+	&__com {
+		text-align: center;
+		width: 80%;
+	}
+}
+
+.footer {
+	padding: 8vh;
+	background: rgb(188, 221, 188);
+	&__centerlinks {
+		list-style: none;
+	}
+}
